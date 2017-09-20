@@ -9,6 +9,8 @@ const initialState = {
     frontEndBuildNumber: process.env.REACT_APP_BUILD_NUMBER,
     deploymentEnvironment: process.env.REACT_APP_DEPLOYMENT_ENV,
   },
+  sampleData: [],
+  sampleErrorMessage: '',
 };
 
 describe('appReducer', () => {

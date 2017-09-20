@@ -2574,6 +2574,10 @@ flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
+flow-bin@^0.54.1:
+  version "0.54.1"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.54.1.tgz#7101bcccf006dc0652714a8aef0c72078a760510"
+
 for-in@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -3727,7 +3731,7 @@ json-stable-stringify@^1.0.1:
   dependencies:
     jsonify "~0.0.0"
 
-json-stringify-safe@~5.0.1:
+json-stringify-safe@^5.0.1, json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
 
@@ -3875,7 +3879,7 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lodash-es@^4.2.0, lodash-es@^4.2.1:
+lodash-es@^4.17.4, lodash-es@^4.2.0, lodash-es@^4.2.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.4.tgz#dcc1d7552e150a0640073ba9cb31d70f032950e7"
 
@@ -5322,6 +5326,18 @@ reduce-function-call@^1.0.1:
   dependencies:
     balanced-match "^0.4.2"
 
+redux-persist@^4.9.1:
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/redux-persist/-/redux-persist-4.9.1.tgz#271fa31d1c782ebf9082fb5174e829db24faf59e"
+  dependencies:
+    json-stringify-safe "^5.0.1"
+    lodash "^4.17.4"
+    lodash-es "^4.17.4"
+
+redux-saga@^0.15.6:
+  version "0.15.6"
+  resolved "https://registry.yarnpkg.com/redux-saga/-/redux-saga-0.15.6.tgz#8638dc522de6c6c0a496fe8b2b5466287ac2dc4d"
+
 redux@^3.7.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/redux/-/redux-3.7.2.tgz#06b73123215901d25d065be342eb026bc1c8537b"
@@ -6451,7 +6467,7 @@ whatwg-encoding@^1.0.1:
   dependencies:
     iconv-lite "0.4.13"
 
-whatwg-fetch@2.0.3, whatwg-fetch@>=0.10.0:
+whatwg-fetch@2.0.3, whatwg-fetch@>=0.10.0, whatwg-fetch@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz#9c84ec2dcf68187ff00bc64e1274b442176e1c84"
 

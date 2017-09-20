@@ -29,6 +29,14 @@ exports[`<App /> Expect to be render correctly 1`] = `
        and save to reload.
     </p>
   </div>
+  <div>
+    <h1>
+      SAGA SAMPLE
+    </h1>
+    <div>
+      test
+    </div>
+  </div>
   <div
     className="well"
   >

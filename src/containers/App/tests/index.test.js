@@ -10,6 +10,10 @@ describe('<App />', () => {
         deploymentEnvironment: 'test',
         frontEndBuildNumber: 123,
       },
+      sampleData: [{id: 1, name: 'test'}],
+      actions: {
+        getSampleData: jest.fn(),
+      },
     };
     const wrapper = renderer.create(
       <MemoryRouter>
